@@ -37,15 +37,210 @@ namespace MarvelData
                 case 0x2:
                     name = "Walk Backward";
                     break;
-                /*
                 case 0x3:
-                    return "fwd dash";
+                    name = "Ground Dash Forward";
+                    break;
                 case 0x4:
-                    return "backdash";
-                case 0x96:
-                    return "5L";
+                    name = "Ground Dash Backward";
+                    break;
+                case 0x5:
+                    name = "Air Dash Forward";
+                    break;
+                case 0x6:
+                    name = "Air Dash Backward";
+                    break;
+                case 0x9:
+                    name = "Fall";
+                    break;
+                case 0xA:
+                    name = "Crouch";
+                    break;
+                case 0xC:
+                    name = "Jump";
+                    break;
+                case 0xD:
+                    name = "Jump Forward";
+                    break;
+                case 0xE:
+                    name = "Jump Backward";
+                    break;
+                case 0xF:
+                    name = "Midair Jump";
+                    break;
+                case 0x10:
+                    name = "Midair Jump Forward";
+                    break;
+                case 0x11:
+                    name = "Midair Jump Backward";
+                    break;
+                case 0x13:
+                    name = "Super Jump";
+                    break;
+                case 0x14:
+                    name = "Super Jump Forward";
+                    break;
+                case 0x15:
+                    name = "Super Jump Backward";
+                    break;
+                case 0x16:
+                    name = "Special Fall?";
+                    break;
+                case 0x17:
+                    name = "Light Landing";
+                    break;
+                case 0x18:
+                    name = "Turn";
+                    break;
+                case 0x19:
+                    name = "Crouch Exit";
+                    break;
+                case 0x1A:
+                    name = "Crouch Turn";
+                    break;
+                case 0x24:
+                    name = "Grab Teched";
+                    break;
+                case 0x25:
+                    name = "Grab Tech";
+                    break;
+                case 0x26:
+                    name = "Air Grab Teched";
+                    break;
+                case 0x27:
+                    name = "Air Grab Tech";
+                    break;
+                /*case 0x82:
+                    name = "Intro Animation 1?";
+                    break;
+                case 0x83:
+                    name = "Intro Animation 2?";
+                    break;
+                case 0x84:
+                    name = "Intro Animation 3?";
+                    break;*/
+                case 0x87:
+                    name = "Taunt";
+                    break;
+                /*case 0x8B:
+                    name = "Victory Animation?";
+                    break;*/
+                case 0xA9:
+                    name = "Air X-Factor";
+                    break;
+                case 0xAA:
+                    name = "X-Factor";
+                    break;
+                case 0xAB:
+                    name = "Snap Back";
+                    break;
+                case 0xAC:
+                    name = "Assist Alpha";
+                    break;
+                case 0xAD:
+                    name = "Assist Beta";
+                    break;
+                case 0xAE:
+                    name = "Assist Gamma";
+                    break;
+                case 0xAE:
+                    name = "Assist Gamma";
+                    break;
+                /*case 0xAF:
+                    name = "Air Dash Up";
+                    break;
+                case 0xB0:
+                    name = "Air Dash Up+Forward";
+                    break;
+                case 0xB1:
+                    name = "Air Dash Down+Forward";
+                    break;
+                case 0xB2:
+                    name = "Air Dash Down";
+                    break;
+                case 0xB3:
+                    name = "Air Dash Down+Back";
+                    break;
+                case 0xB4:
+                    name = "Air Dash Up+Back";
+                    break;*/
+                case 0x106:
+                    name = "Air Forward Throw";
+                    break;
+                case 0x107:
+                    name = "Air Backward Throw";
+                    break;
+                case 0x154:
+                    name = "Tag In";
+                    break;
+                case 0x155:
+                    name = "Tag Out";
+                    break;
+                case 0x157:
+                    name = "Assist Leaving";
+                    break;
+                case 0x159:
+                    name = "Crossover Combination";
+                    break;
+                case 0x16A:
+                    name = "TAC Up";
+                    break;
+                case 0x16B:
+                    name = "TAC Side";
+                    break;
+                case 0x16C:
+                    name = "TAC Down";
+                    break;
                 case 0x168:
-                    return "5S";*/
+                    name = "Stand S*";
+                    break;
+                case 0x170:
+                    name = "TAC Tag In 1"; //Up?
+                    break;
+                case 0x171:
+                    name = "TAC Tag In 2"; //Side?
+                    break;
+                case 0x172:
+                    name = "TAC Tag In 3"; //Down?
+                    break;
+                case 0x17C:
+                    name = "Flight Entry";
+                    break;
+                case 0x17D:
+                    name = "Air Flight Entry";
+                    break;
+                case 0x17E:
+                    name = "Flight Exit";
+                    break;
+                case 0x17F:
+                    name = "Flight Idle";
+                    break;
+                case 0x180:
+                    name = "Flight Forward";
+                    break;
+                case 0x181:
+                    name = "Flight Up+Forward";
+                    break;
+                case 0x182:
+                    name = "Flight Down+Forward";
+                    break;
+                case 0x183:
+                    name = "Flight Back";
+                    break;
+                case 0x184:
+                    name = "Flight Up+Back";
+                    break;
+                case 0x185
+                    name = "Flight Down+Back";
+                    break;
+                case 0x186
+                    name = "Flight Up";
+                    break;
+                case 0x187
+                    name = "Flight Down";
+                    break;
+                case 0x1B8
+                    name = "Gallery Pose";
+                    break;
                 default:
                     name = "unknown";
                     break;
