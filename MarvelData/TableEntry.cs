@@ -109,20 +109,26 @@ namespace MarvelData
                 case 0x27:
                     name = "Air Grab Tech";
                     break;
-                /*case 0x82:
-                    name = "Intro Animation 1?";
+                case 0x82:
+                    name = "Intro Animation";
                     break;
                 case 0x83:
-                    name = "Intro Animation 2?";
+                    name = "Intro Animation Assist 1";
                     break;
                 case 0x84:
-                    name = "Intro Animation 3?";
-                    break;*/
+                    name = "Intro Animation Assist 2";
+                    break;
+                case 0x85:
+                    name = "Assist Exit After Intro";
+                    break;    
                 case 0x87:
                     name = "Taunt";
                     break;
-                /*case 0x8B:
-                    name = "Victory Animation?";
+                case 0x89:
+                    name = "Victory Animation";
+                    break;
+                case 0x8B:
+                    name = "Time Over Defeat";
                     break;*/
                 case 0xA9:
                     name = "Air X-Factor";
@@ -142,27 +148,6 @@ namespace MarvelData
                 case 0xAE:
                     name = "Assist Gamma";
                     break;
-                case 0xAE:
-                    name = "Assist Gamma";
-                    break;
-                /*case 0xAF:
-                    name = "Air Dash Up";
-                    break;
-                case 0xB0:
-                    name = "Air Dash Up+Forward";
-                    break;
-                case 0xB1:
-                    name = "Air Dash Down+Forward";
-                    break;
-                case 0xB2:
-                    name = "Air Dash Down";
-                    break;
-                case 0xB3:
-                    name = "Air Dash Down+Back";
-                    break;
-                case 0xB4:
-                    name = "Air Dash Up+Back";
-                    break;*/
                 case 0x106:
                     name = "Air Forward Throw";
                     break;
@@ -191,16 +176,16 @@ namespace MarvelData
                     name = "TAC Down";
                     break;
                 case 0x168:
-                    name = "Stand S*";
+                    name = "Stand S";
                     break;
                 case 0x170:
-                    name = "TAC Tag In 1"; //Up?
+                    name = "TAC Tag In Up";
                     break;
                 case 0x171:
-                    name = "TAC Tag In 2"; //Side?
+                    name = "TAC Tag In Side";
                     break;
                 case 0x172:
-                    name = "TAC Tag In 3"; //Down?
+                    name = "TAC Tag In Down";
                     break;
                 case 0x17C:
                     name = "Flight Entry";
